@@ -14,7 +14,7 @@
 	{{- end }}
 	<div id="spotlight" class="animated fadeIn">
 		<div id="home-center">
-			<h1 id="home-title">Gib dein Antwort!</h1>
+			<h1 id="home-title">Gib deine Antwort!</h1>
 			<input class="keyword" style="color: green; text-align: center" type="text">
 			<button style="background-color: blueviolet; width: 7em; margin: 0 auto; text-align: center; margin-top: 1em" class="checkAnswer" type="button">Überprüfen</button>
 			{{- with .Site.Params.homeSubtitle }}
@@ -29,7 +29,8 @@
 				{{ partialCached "menu.html" . }}
 			</nav>
 		</div>
-		<div id="mapImage" style="display: none"><img src="/secretmap.jpg" /></div>
+		<div id="mapImage" style="display: none"><h2>Mape 1</h2><img src="/secretmap.jpg" /></div>
+		<div id="mapImage2" style="display: none"><h2>Mape 2</h2><img src="/secretmap.jpg" /></div>
 		<div id="home-footer">
 			<p>
 				&copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>{{ .Site.Params.footerCopyright | safeHTML }}

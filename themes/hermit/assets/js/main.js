@@ -120,13 +120,15 @@ const homeTitle = document.querySelector("#home-title");
 button.addEventListener("click", () => {
   //const answerInput = document.querySelector(".keyword");
   console.log(answerInput);
-  if (answerInput.value.toUpperCase().trim() === "RICHTIGE ANTWORT") {
+  if (answerInput.value.toUpperCase().trim() === "FRUCHTBARKEIT") {
     homeTitle.style.display = "none";
     answerInput.style.display = "none";
     button.style.display = "none";
     const mapImage = document.querySelector("#mapImage");
+    const mapImage2 = document.querySelector("#mapImage2");
     //mapImage.style.display = "block";
     unfade(mapImage);
+    unfade(mapImage2);
     var audio = new Audio('success-fanfare-trumpets-6185.mp3');
     audio.play()
   }
