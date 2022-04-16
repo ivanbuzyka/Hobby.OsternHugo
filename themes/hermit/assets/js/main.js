@@ -117,6 +117,7 @@ function unfade(element) {
 const answerInput = document.querySelector(".keyword");
 const button = document.querySelector(".checkAnswer");
 const homeTitle = document.querySelector("#home-title");
+const haseContainer = document.querySelector("#haseContainer");
 button.addEventListener("click", () => {
   //const answerInput = document.querySelector(".keyword");
   console.log(answerInput);
@@ -124,6 +125,7 @@ button.addEventListener("click", () => {
     homeTitle.style.display = "none";
     answerInput.style.display = "none";
     button.style.display = "none";
+    haseContainer.style.display = "none";
     const mapImage = document.querySelector("#mapImage");
     const mapImage2 = document.querySelector("#mapImage2");
     //mapImage.style.display = "block";

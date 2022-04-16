@@ -13,6 +13,7 @@
 	<div class="bg-img"></div>
 	{{- end }}
 	<div id="spotlight" class="animated fadeIn">
+		<div id="haseContainer"><img src="5a1bb3120d0896.3692026815117647540534.png"/></div>
 		<div id="home-center">
 			<h1 id="home-title">Gib deine Antwort!</h1>
 			<input class="keyword" style="color: green; text-align: center" type="text">
@@ -29,8 +30,8 @@
 				{{ partialCached "menu.html" . }}
 			</nav>
 		</div>
-		<div id="mapImage" style="display: none"><h2>Mape 1</h2><img src="/secretmap.jpg" /></div>
-		<div id="mapImage2" style="display: none"><h2>Mape 2</h2><img src="/secretmap.jpg" /></div>
+		<div id="mapImage" style="display: none"><h2>Mappe 1</h2><img src="/secretmap.jpg" /></div>
+		<div id="mapImage2" style="display: none"><h2>Mappe 2</h2><img src="/secretmap2.jpg" /></div>
 		<div id="home-footer">
 			<p>
 				&copy; {{ now.Format "2006" }} <a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a>{{ .Site.Params.footerCopyright | safeHTML }}
