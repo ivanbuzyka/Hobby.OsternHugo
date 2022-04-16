@@ -1,0 +1,5 @@
+baseURL = "http://easter.buzyka.de/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+subtitle = "test"
+theme = "hermit"
