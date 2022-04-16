@@ -1,5 +1,4 @@
-baseURL = "http://easter.buzyka.de/"
+baseURL = "https://ostern.buzyka.de/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-subtitle = "test"
 theme = "hermit"
